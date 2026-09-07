@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { skills, languages } from "@/data/cv-data";
@@ -10,18 +11,28 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 export function Skills() {
+  const { t } = useTranslation();
+
+  const skillCategories = [
+    { key: "languages", items: skills[0].items },
+    { key: "frameworks", items: skills[1].items },
+    { key: "infrastructure", items: skills[2].items },
+  ];
+
   return (
     <section id="skills" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4 md:px-8">
-        <h2 className="text-3xl font-bold mb-8 text-primary">Technical Skills</h2>
+        <h2 className="text-3xl font-bold mb-8 text-primary">
+          {t("skills.title")}
+        </h2>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {skills.map((skill, index) => (
+          {skillCategories.map((skill, index) => (
             <Card key={index}>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  {iconMap[skill.category]}
-                  <span>{skill.category}</span>
+                  {iconMap[skill.key === "languages" ? "Languages" : skill.key === "frameworks" ? "Frameworks & Platforms" : "Infrastructure & Tools"]}
+                  <span>{t(`skills.${skill.key}`)}</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -39,7 +50,7 @@ export function Skills() {
 
         <Card className="mt-6">
           <CardHeader>
-            <CardTitle>Languages</CardTitle>
+            <CardTitle>{t("skills.spokenLanguages")}</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="flex flex-wrap gap-4">
