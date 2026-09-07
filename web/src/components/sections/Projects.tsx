@@ -17,10 +17,10 @@ export function Projects() {
 
         <div className="grid gap-6 md:grid-cols-2">
           {featuredProjects.map((project, index) => (
-            <Card key={index} className="flex flex-col">
+            <Card key={index} className="flex flex-col hover:shadow-lg transition-shadow">
               <CardHeader>
                 <CardTitle className="flex items-center justify-between">
-                  <span>{project.title}</span>
+                  <span className="text-lg">{project.title}</span>
                   <Button
                     render={
                       <a
@@ -44,12 +44,12 @@ export function Projects() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="flex-1 flex flex-col gap-4">
-                <p className="text-muted-foreground text-sm">
+                <p className="text-muted-foreground text-sm leading-relaxed">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mt-auto">
                   {project.technologies.map((tech, i) => (
-                    <Badge key={i} variant="secondary">
+                    <Badge key={i} variant="secondary" className="text-xs">
                       {tech}
                     </Badge>
                   ))}
