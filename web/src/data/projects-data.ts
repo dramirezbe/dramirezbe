@@ -5,6 +5,7 @@ export interface Project {
   repoUrl: string;
   featured: boolean;
   category: "embedded" | "ai" | "web" | "research";
+  account: "dramirezbe" | "mochapulse";
 }
 
 export const projects: Project[] = [
@@ -16,6 +17,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/dramirezbe/EdgeSDR-Nexus",
     featured: true,
     category: "embedded",
+    account: "dramirezbe",
   },
   {
     title: "SDR-SpectrumMonitoring-Sensor",
@@ -25,6 +27,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/dramirezbe/SDR-SpectrumMonitoring-Sensor",
     featured: true,
     category: "embedded",
+    account: "dramirezbe",
   },
   {
     title: "SelfHostedContextCrafter",
@@ -34,6 +37,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/dramirezbe/SelfHostedContextCrafter",
     featured: true,
     category: "ai",
+    account: "dramirezbe",
   },
   {
     title: "RPI-DashWake",
@@ -43,6 +47,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/dramirezbe/RPI-DashWake",
     featured: true,
     category: "embedded",
+    account: "dramirezbe",
   },
   {
     title: "CheapestSpectrumSensingProject",
@@ -52,6 +57,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/dramirezbe/CheapestSpectrumSensingProject",
     featured: false,
     category: "web",
+    account: "dramirezbe",
   },
   {
     title: "RFFT-Scope-FPGA",
@@ -61,6 +67,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/dramirezbe/RFFT-Scope-FPGA",
     featured: false,
     category: "embedded",
+    account: "dramirezbe",
   },
   {
     title: "RAG-study",
@@ -70,6 +77,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/dramirezbe/RAG-study",
     featured: false,
     category: "ai",
+    account: "dramirezbe",
   },
   {
     title: "Gpio-kernel-driver",
@@ -79,6 +87,37 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/dramirezbe/Gpio-kernel-driver",
     featured: false,
     category: "embedded",
+    account: "dramirezbe",
+  },
+  {
+    title: "nexus-API",
+    description:
+      "A secure, lightweight 24/7 daemon API to monitor telemetry, sniff systemd logs, and manage server power states (sleep & shutdown).",
+    technologies: ["Python", "API", "Systemd", "Telemetry"],
+    repoUrl: "https://github.com/mochapulse/nexus-API",
+    featured: true,
+    category: "web",
+    account: "mochapulse",
+  },
+  {
+    title: "lan-controller-esp32",
+    description:
+      "ESP32 firmware with embedded web dashboard, real-time device status monitoring, and Wake-on-LAN control. Built with ESP-IDF v6.0.2.",
+    technologies: ["C", "ESP32", "ESP-IDF", "WoLAN", "Web Dashboard"],
+    repoUrl: "https://github.com/mochapulse/lan-controller-esp32",
+    featured: true,
+    category: "embedded",
+    account: "mochapulse",
+  },
+  {
+    title: "LocalLLMTestingUsingLlamaCpp",
+    description:
+      "Local LLM testing and inference using llama.cpp for on-device AI capabilities.",
+    technologies: ["C", "LLM", "llama.cpp", "AI"],
+    repoUrl: "https://github.com/mochapulse/LocalLLMTestingUsingLlamaCpp",
+    featured: false,
+    category: "ai",
+    account: "mochapulse",
   },
 ];
 
