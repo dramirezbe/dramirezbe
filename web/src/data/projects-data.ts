@@ -104,50 +104,6 @@ export const projects: Project[] = [
     category: "embedded",
     account: "dramirezbe",
   },
-  {
-    title: "RAG-study",
-    description:
-      "Research and implementation of Retrieval-Augmented Generation patterns for domain-specific knowledge bases.",
-    technologies: ["Python", "RAG", "LLMs"],
-    repoUrl: "https://github.com/dramirezbe/RAG-study",
-    public: true,
-    commits: 20,
-    category: "ai",
-    account: "dramirezbe",
-  },
-  {
-    title: "Gpio-kernel-driver",
-    description:
-      "Linux kernel driver for GPIO control with maximum authority, demonstrating low-level system programming.",
-    technologies: ["C", "Linux", "Kernel", "GPIO"],
-    repoUrl: "https://github.com/dramirezbe/Gpio-kernel-driver",
-    public: true,
-    commits: 11,
-    category: "embedded",
-    account: "dramirezbe",
-  },
-  {
-    title: "SelfHostedContextCrafter",
-    description:
-      "Automated architectural team that orchestrates RAG-based expert agents on local hardware. Digests hardware datasheets, software documentation, and network protocols to generate structured context.",
-    technologies: ["Python", "RAG", "Local LLMs", "LaTeX"],
-    repoUrl: "https://github.com/dramirezbe/SelfHostedContextCrafter",
-    public: true,
-    commits: 5,
-    category: "ai",
-    account: "dramirezbe",
-  },
-  {
-    title: "LocalLLMTestingUsingLlamaCpp",
-    description:
-      "Local LLM testing and inference using llama.cpp for on-device AI capabilities.",
-    technologies: ["C", "LLM", "llama.cpp", "AI"],
-    repoUrl: "https://github.com/mochapulse/LocalLLMTestingUsingLlamaCpp",
-    public: true,
-    commits: 2,
-    category: "ai",
-    account: "mochapulse",
-  },
 ];
 
 // Projects shown on the site: public only, highest commit count first.
