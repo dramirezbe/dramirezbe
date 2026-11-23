@@ -24,7 +24,15 @@
     "bscPeriod": "Jul 2022 - Jun 2026",
     "mscDetails": "Research Areas: Artificial Intelligence, Machine Learning applied to RF, Computational Structures, and Optimization",
     "bscDetails1": "Cumulative GPA: 4.2/5.0",
-    "bscDetails2": "Focus Areas: Digital Signal Processing (DSP), Software Defined Radio (SDR), Hardware Design, and IoT Systems"
+    "bscDetails2": "Focus Areas: Digital Signal Processing (DSP), Software Defined Radio (SDR), Hardware Design, and IoT Systems",
+    "accountsTitle": "Two Sites, One Engineer",
+    "accountsIntro": "The same engineer in two contexts — this academic, research-focused space, and a professional one. Each site links to the other.",
+    "accountsCurrent": "You are here",
+    "accountsVisit": "Visit site",
+    "accountsMochaRole": "Professional · Freelance",
+    "accountsMochaDesc": "Personal and client work: homelab infrastructure, embedded systems, self-hosted services, and product builds.",
+    "accountsEduRole": "Educational · Research & Science",
+    "accountsEduDesc": "Academic and scientific work at the National University of Colombia: RF, DSP, SDR, and machine-learning research."
   },
   "experience": {
     "title": "Experience",

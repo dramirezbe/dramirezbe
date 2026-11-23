@@ -6,6 +6,7 @@ export const personalInfo = {
   phone: "+57 3106801331",
   linkedin: "https://linkedin.com/in/david-ramirez-betancourth-b5ba80279",
   github: "https://github.com/dramirezbe",
+  siteMocha: "https://mochapulse.github.io/mochapulse/",
   summary:
     "Electronic Engineer specialized in Radio Frequency (RF) systems and Digital Signal Processing (DSP). Experience in hardware-software integration from low-level protocols (TCP, UDP, ZMQ) and Software Defined Radio (SDR) to cloud architectures with IoT sensors. Firmware development in C for real-time acquisition and processing, with autonomous calibration and Python orchestration.",
 };

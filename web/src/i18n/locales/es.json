@@ -24,7 +24,15 @@
     "bscPeriod": "Jul 2022 - Jun 2026",
     "mscDetails": "Áreas de Investigación: Inteligencia Artificial, Aprendizaje de Máquina aplicado a RF, Estructuras Computacionales y Optimización",
     "bscDetails1": "Promedio Acumulado: 4.2/5.0",
-    "bscDetails2": "Áreas de Enfoque: Procesamiento Digital de Señales (DSP), Radio Definida por Software (SDR), Diseño de Hardware y Sistemas IoT"
+    "bscDetails2": "Áreas de Enfoque: Procesamiento Digital de Señales (DSP), Radio Definida por Software (SDR), Diseño de Hardware y Sistemas IoT",
+    "accountsTitle": "Dos sitios, un ingeniero",
+    "accountsIntro": "El mismo ingeniero en dos contextos — este espacio académico, enfocado en investigación, y uno profesional. Cada sitio enlaza al otro.",
+    "accountsCurrent": "Estás aquí",
+    "accountsVisit": "Visitar sitio",
+    "accountsMochaRole": "Profesional · Freelance",
+    "accountsMochaDesc": "Trabajo personal y de clientes: infraestructura homelab, sistemas embebidos, servicios autoalojados y desarrollo de productos.",
+    "accountsEduRole": "Educativo · Investigación y Ciencia",
+    "accountsEduDesc": "Trabajo académico y científico en la Universidad Nacional de Colombia: investigación en RF, DSP, SDR y aprendizaje de máquina."
   },
   "experience": {
     "title": "Experiencia",
