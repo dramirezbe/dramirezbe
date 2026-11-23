@@ -39,17 +39,6 @@ export const projects: Project[] = [
     account: "dramirezbe",
   },
   {
-    title: "nexus-API",
-    description:
-      "A secure, lightweight 24/7 daemon API to monitor telemetry, sniff systemd logs, and manage server power states (sleep & shutdown).",
-    technologies: ["Python", "API", "Systemd", "Telemetry"],
-    repoUrl: "https://github.com/mochapulse/nexus-API",
-    public: true,
-    commits: 68,
-    category: "web",
-    account: "mochapulse",
-  },
-  {
     title: "EdgeSDR-Nexus",
     description:
       "Remote radio spectrum monitoring platform with Edge-to-Cloud architecture. SDR sensor nodes (Raspberry Pi 5 + HackRF One) with C data plane, Python control, and centralized platform (Node.js, React, PostgreSQL).",
@@ -59,17 +48,6 @@ export const projects: Project[] = [
     commits: 36,
     category: "embedded",
     account: "dramirezbe",
-  },
-  {
-    title: "lan-controller-esp32",
-    description:
-      "ESP32 firmware with embedded web dashboard, real-time device status monitoring, and Wake-on-LAN control. Built with ESP-IDF v6.0.2.",
-    technologies: ["C", "ESP32", "ESP-IDF", "WoLAN", "Web Dashboard"],
-    repoUrl: "https://github.com/mochapulse/lan-controller-esp32",
-    public: true,
-    commits: 34,
-    category: "embedded",
-    account: "mochapulse",
   },
   {
     title: "RFFT-Scope-FPGA",
